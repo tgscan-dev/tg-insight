@@ -1,4 +1,5 @@
-# TG-Insight - Telegram Group/Channel Natural Language Mining
+# TG-Insight - Analyze text in Telegram groups and channels for valuable insights.
+
 
 TG-Insight is a powerful project designed for natural language mining on Telegram groups and channels.
 
