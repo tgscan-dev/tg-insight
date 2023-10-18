@@ -18,6 +18,7 @@ class Room(Base):  # type: ignore
     collected_at = Column(TIMESTAMP)
     lang = Column(String(255))
     tags = Column(String(2048))
+    category = Column(String(255))
     msg_cnt = Column(Integer)
     room_id = Column(String(255), unique=True)
     username = Column(String(255))
