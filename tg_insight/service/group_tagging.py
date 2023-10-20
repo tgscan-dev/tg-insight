@@ -23,7 +23,7 @@ Art, Design, Entrepreneurship, Investment, Finance, Psychology, Education, Histo
 , Law, Human Rights, Cryptocurrencies, Blockchain, Other"
     )
     tags: list[str] = Field(
-        description="tags of telegram group，Note that the tags should be provided in English"
+        description="tags of telegram group，Note that the tags should be provided in English, maximum 5 tags."
     )
 
 
