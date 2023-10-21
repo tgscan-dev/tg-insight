@@ -44,7 +44,7 @@ the tags should be provided in English.\n\
     chat_prompt = ChatPromptTemplate.from_messages(
         [system_message_prompt, human_message_prompt]
     )
-    llm = ChatOpenAI(temperature=0.2, request_timeout=30)
+    llm = ChatOpenAI(temperature=0.2, request_timeout=20)
     chain = LLMChain(llm=llm, prompt=chat_prompt)
     autofix_parser = OutputFixingParser.from_llm(parser=parser, llm=llm)
     output = chain.run(
